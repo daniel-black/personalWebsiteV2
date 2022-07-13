@@ -14,7 +14,7 @@ export default function Projects() {
         <div className="pr-3 border-r border-amber-300">
           <a href="https://routescout-1ac17.firebaseapp.com/" target="_blank" rel="noreferrer">
             <Image 
-              src='/routeScout.png'
+              src='/routescout.png'
               alt="RouteScout logo"
               height={67}
               width={246}
