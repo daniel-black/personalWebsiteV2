@@ -4,7 +4,7 @@ export default function Book(props) {
     <li>
       <div className="flex items-center">
         <span className="inline-flex items-center justify-center h-9 w-9 bg-amber-200 rounded-full">{emoji}</span>
-        <a className="link-style text-2xl ml-2" target="_blank" href={href}>
+        <a className="link-style text-2xl ml-2" target="_blank" rel="noreferrer" href={href}>
           {title}
         </a>
       </div>

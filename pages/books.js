@@ -3,9 +3,9 @@ import Book from "../components/Book";
 
 export default function Books() {
   return (
-    <div class="space-y-4 leading-relaxed max-w-xl flex-grow">
+    <div className="space-y-4 leading-relaxed max-w-xl flex-grow">
       <BackButton />
-      <h1 class="text-2xl sm:text-3xl font-jslab">
+      <h1 className="text-2xl sm:text-3xl font-jslab">
         Some of my all-time favorites&nbsp;&#10024;
       </h1>
       <ul className="space-y-3">
