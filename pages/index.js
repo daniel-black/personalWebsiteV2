@@ -24,13 +24,18 @@ export default function Home() {
         <p>A couple quick things I enjoy:</p>
         <ul>
           <li className='hover:cursor-pointer'>
-            <Link href='books'>
+            <Link href='/books'>
               <span className='link-style'>📚 Reading</span>
             </Link>
           </li>
           <li>🏋️‍♂️ Exercising</li>
           <li>☀️ Sunshine</li>
           <li>💻 Learning new things</li>
+          <li className='hover:cursor-pointer'>
+            <Link href='/projects'>
+              <span className='link-style'>⚙️ Working on projects</span>
+            </Link>
+          </li>
         </ul>
         <p>Currently, I&apos;m living in Minneapolis but the cold and I do not get along particularly well so I&apos;ve set my sights on warmer climates.</p>
         <p>Feel free to shoot me an email anytime!</p>
