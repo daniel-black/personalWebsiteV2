@@ -14,12 +14,18 @@ export default function Projects() {
 
       <section className="bg-amber-200 p-3 rounded-xl flex shadow-md">
         <div className="pr-3 border-r border-amber-300 flex flex-col">
-          <h2 className="mb-3 bg-slate-900 text-yellow-300 rounded-lg px-2">🚧 UNDER CONSTRUCTION <span className="inline-block animate-hammer">🔨</span></h2>
-          <a href="https://hacker-news-client-coral.vercel.app/" className="bg-amber-300 p-2 rounded-lg shadow-inner" target="_blank" rel="noreferrer">
-            
-            <h2 className="text-3xl hover:text-slate-800 rounded-lg max-w-min duration-75">HN&nbsp;Reader</h2>
+          <a href="https://hacker-news-client-coral.vercel.app/"  target="_blank" rel="noreferrer">
+            <Image 
+                src='/hacolyte.png'
+                alt="Hacolyte logo"
+                height={107}
+                width={302}
+                layout="intrinsic"
+                className="rounded-xl hover:opacity-75 duration-75"
+              />
+            <h2 className="text-3xl hover:text-slate-800 rounded-lg max-w-min duration-75">Hacolyte</h2>
           </a>
-          <p className="flex-grow">A Hacker News Client.</p>
+          <p className="flex-grow">A Hacker News reader app.</p>
           <ProjectGithubLink href='https://github.com/daniel-black/hacker-news-client' />
         </div>
         <div className="pl-3 flex flex-col space-y-3">
@@ -47,7 +53,7 @@ export default function Projects() {
         </div>
         <div className="pl-3 flex flex-col space-y-3">
           <Pill name='Google&nbsp;Maps&nbsp;APIs' bg='bg-[#e8887f]' text='text-[#dd4b3e]' />
-          <Pill name='Vue.js' bg='bg-[#42d392]' text='text-[#32805c]' />
+          <Pill name='VueJS' bg='bg-[#42d392]' text='text-[#32805c]' />
           <Pill name='Firebase' bg='bg-[#FFCB2B]' text='text-[#a76f37]' />
           <Pill name='Firestore' bg='bg-[#8ab4f8]' text='text-[#1967d2]' />
           <Pill name='Tailwind' bg='bg-sky-500' text='text-sky-800' />
@@ -71,7 +77,7 @@ export default function Projects() {
           <ProjectGithubLink href='https://github.com/daniel-black/blac0352-homework2' />
         </div>
         <div className="pl-3  flex flex-col space-y-3">
-          <Pill name='Vue.js' bg='bg-[#42d392]' text='text-[#32805c]' />
+          <Pill name='VueJS' bg='bg-[#42d392]' text='text-[#32805c]' />
           <Pill name='Firebase' bg='bg-[#FFCB2B]' text='text-[#a76f37]' />
           <Pill name='Firestore' bg='bg-[#8ab4f8]' text='text-[#1967d2]' />
           <Pill name='Tailwind' bg='bg-sky-500' text='text-sky-800' />
